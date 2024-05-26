@@ -1,0 +1,187 @@
+/* General Resets */
+
+body, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Font Families */
+  body {
+    font-family: 'Medium', sans-serif;
+  }
+  
+  /* Header and Navigation Styling */
+  .header {
+    width: 100%;
+    background-color: #333;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  .nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav a:hover {
+    background-color: #555;
+    text-decoration: none;
+  }
+  
+  /* Main Content Styling */
+  .home-page {
+    font-family: 'Rethink Sans', sans-serif;
+    padding-top: 60px; /* Adjust for fixed header */
+  }
+  
+  .frame-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10;
+    text-align: center;
+  }
+  
+  .content-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .title {
+    font-size: 3em;
+    font-weight: 800;
+    letter-spacing: 8px;
+  }
+  
+  .subtitle {
+    font-size: 2em;
+    margin-top: 10px;
+    letter-spacing: 4px;
+  }
+  
+  .div-title {
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto; 
+    width: 90%; 
+    color: white;
+  }
+  
+  .dominate-your-day-with-time-t-wrapper {
+    margin-top: 20px;
+  }
+  
+  .dominate-your-day {
+    font-size: 1.2em;
+    margin: 0 auto;
+  }
+  
+  .container, .container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-top: 100px;
+    z-index: 9999;
+  }
+  
+  
+  .side-by-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+  }
+  
+  .left-section {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .calendar-icon {
+    width: 450px;
+    height: auto;
+  }
+
+  .search-icon {
+    width: 150px;
+    height: auto;
+  }
+  
+  .right-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px; /* Adjust spacing between sections */
+  }
+  
+  .picture-one, .picture-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .picture-one {
+    background-image: url("sched.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .picture-two {
+    background-image: url("sched2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .title-box {
+    text-align: center;
+    margin-top: 15px; /* Adjust spacing between boxes */
+  }
+  
+  .title-box h2 {
+    font-size: 24px;
+    color: #333;
+    font-weight:bold;
+  }
+  
+.two-divider {
+    width: 100%;
+    height: 80px;
+    background-color: #d24d57;
+    margin-top: -5px;
+    border-radius: 0 0 80px;
+}
